@@ -13,3 +13,18 @@ D:\Programming\GitLessons\git_lesson\obj\Debug\net10.0\refint\git_lesson.dll
 D:\Programming\GitLessons\git_lesson\obj\Debug\net10.0\git_lesson.pdb
 D:\Programming\GitLessons\git_lesson\obj\Debug\net10.0\git_lesson.genruntimeconfig.cache
 D:\Programming\GitLessons\git_lesson\obj\Debug\net10.0\ref\git_lesson.dll
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\git_lesson.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\git_lesson.AssemblyInfoInputs.cache
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\git_lesson.AssemblyInfo.cs
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\git_lesson.csproj.CoreCompileInputs.cache
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\git_lesson.sourcelink.json
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\git_lesson.dll
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\refint\git_lesson.dll
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\git_lesson.pdb
+D:\Nikita`s Folder\Projects\gitLesson\bin\Debug\net10.0\git_lesson.exe
+D:\Nikita`s Folder\Projects\gitLesson\bin\Debug\net10.0\git_lesson.deps.json
+D:\Nikita`s Folder\Projects\gitLesson\bin\Debug\net10.0\git_lesson.runtimeconfig.json
+D:\Nikita`s Folder\Projects\gitLesson\bin\Debug\net10.0\git_lesson.dll
+D:\Nikita`s Folder\Projects\gitLesson\bin\Debug\net10.0\git_lesson.pdb
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\git_lesson.genruntimeconfig.cache
+D:\Nikita`s Folder\Projects\gitLesson\obj\Debug\net10.0\ref\git_lesson.dll
