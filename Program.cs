@@ -51,7 +51,13 @@ namespace git_lesson
             // Деконструкция - стоит изучить детальнее!!!
             var (name, secondName) = user1;
 
-            NullableTypeLearn.Run();
+            //Nullable_Registration.TestRun();
+
+            Nullable_Registration NewUser1 = new Nullable_Registration("Nikita", "Tkachenko", "tkachenko.nikita.07@gmail.com", 20, 3);
+            Console.WriteLine(NewUser1);
+            NewUser1.ChangeInfo("Dima", "Koladenko", "koladento@gmail.com", 31, 5);
+            Console.WriteLine(NewUser1);
+
         }
 
         private static void ConsoleWrite(string text)

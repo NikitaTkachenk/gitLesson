@@ -4,9 +4,34 @@ using System.Data;
 namespace git_lesson
 {
     // Null - совместимые значимые типы (Nullable). Для значимого типа.
-    class NullableTypeLearn
+    class Nullable_Registration
     {
-        public static void Run()
+        public string Name {get; private set;}
+        public string Secondname {get; private set;}
+        public string E_mail {get; private set;}
+        public int? CountExperience {get; private set;} = null;
+
+        public Nullable_Registration(string name, string secondname, string e_mail, int age, int countExperience)
+        {
+            Name = name;
+            Secondname = secondname;
+            E_mail = e_mail;
+            CountExperience = countExperience;
+        }
+   
+        public void ChangeInfo(string newName, string newSecondname, string newE_mail, int newAge, int newCountExperience)
+        {
+            Name = newName;
+            Secondname = newSecondname;
+            E_mail = newE_mail;
+            CountExperience = newCountExperience;
+        }
+
+
+
+
+
+        public static void TestRun()
         {
              //int a = null; - Неправильно!       // null - гооврит о том что у нас нету ссылки на этоти данные в управляемой куче.
 
@@ -24,9 +49,5 @@ namespace git_lesson
             Console.WriteLine(i < b);  // False - при сравнении с null всегда будет false.
         }  
 
-        public static void NullableReferenceRun()
-        {
-            
-        }
     }
 }
