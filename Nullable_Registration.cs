@@ -4,27 +4,34 @@ using System.Data;
 namespace git_lesson
 {
     // Null - совместимые значимые типы (Nullable). Для значимого типа.
-    class Nullable_Registration
+    public record Nullable_Registration
     {
         public string Name {get; private set;}
         public string Secondname {get; private set;}
         public string E_mail {get; private set;}
+        public int Age {get; private set;}
         public int? CountExperience {get; private set;} = null;
 
-        public Nullable_Registration(string name, string secondname, string e_mail, int age, int countExperience)
+        public Nullable_Registration(string name, string secondname, string e_mail, int age, int? countExperience)
         {
             Name = name;
             Secondname = secondname;
             E_mail = e_mail;
+            Age = age;
             CountExperience = countExperience;
         }
    
-        public void ChangeInfo(string newName, string newSecondname, string newE_mail, int newAge, int newCountExperience)
+        public void ChangeInfo(string newName, string newSecondname, string newE_mail, int newAge, int? newCountExperience)
         {
             Name = newName;
             Secondname = newSecondname;
             E_mail = newE_mail;
             CountExperience = newCountExperience;
+        }
+
+        public static void OutputInfo(Nullable_Registration user)
+        {
+            Console.WriteLine($" - (Name: {user.Name}, secondname: {user.Secondname}, email: {user.E_mail}, age: {user.Age}, Experiance Years: {user.CountExperience?.ToString() ?? "Not Enter!"}.)");
         }
 
 

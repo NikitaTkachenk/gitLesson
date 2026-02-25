@@ -51,13 +51,13 @@ namespace git_lesson
             // Деконструкция - стоит изучить детальнее!!!
             var (name, secondName) = user1;
 
-            //Nullable_Registration.TestRun();
+            //Nullable_Registration.TestRun(); 
 
-            Nullable_Registration NewUser1 = new Nullable_Registration("Nikita", "Tkachenko", "tkachenko.nikita.07@gmail.com", 20, 3);
-            Console.WriteLine(NewUser1);
+            Nullable_Registration NewUser1 = new Nullable_Registration("Nikita", "Tkachenko", "tkachenko.nikita.07@gmail.com", 20, null);
+            Nullable_Registration.OutputInfo(NewUser1);
+            
             NewUser1.ChangeInfo("Dima", "Koladenko", "koladento@gmail.com", 31, 5);
-            Console.WriteLine(NewUser1);
-
+            Nullable_Registration.OutputInfo(NewUser1);
         }
 
         private static void ConsoleWrite(string text)
