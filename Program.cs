@@ -20,9 +20,11 @@ namespace git_lesson
         }
     }
 
+    public record User(string name, string secondname);
+
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Person person = new Person("Nikita", "Tkachenko", 20);
             PrintPersonInfo(person.Name, person.Secondname, person.Age);
@@ -49,6 +51,7 @@ namespace git_lesson
             // Деконструкция - стоит изучить детальнее!!!
             var (name, secondName) = user1;
 
+            NullableTypeLearn.Run();
         }
 
         private static void ConsoleWrite(string text)
@@ -66,8 +69,6 @@ namespace git_lesson
             return new Person(newName, newSecondname, newAge);
         }
     }
-
-    public record User(string name, string secondname);
 }
 
     
