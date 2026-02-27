@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 
 namespace git_lesson
@@ -58,11 +59,8 @@ namespace git_lesson
             
             NewUser1.ChangeInfo("Dima", "Koladenko", "koladento@gmail.com", 31, 5);
             Nullable_Registration.OutputInfo(NewUser1);
-        }
 
-        private static void ConsoleWrite(string text)
-        {
-            Console.WriteLine(text);
+
         }
 
         private static void PrintPersonInfo(string name, string secondName, int age)
@@ -74,6 +72,7 @@ namespace git_lesson
         {
             return new Person(newName, newSecondname, newAge);
         }
+             
     }
 }
 

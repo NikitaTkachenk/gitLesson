@@ -33,11 +33,7 @@ namespace git_lesson
         {
             Console.WriteLine($" - (Name: {user.Name}, secondname: {user.Secondname}, email: {user.E_mail}, age: {user.Age}, Experiance Years: {user.CountExperience?.ToString() ?? "Not Enter!"}.)");
         }
-
-
-
-
-
+        
         public static void TestRun()
         {
              //int a = null; - Неправильно!       // null - гооврит о том что у нас нету ссылки на этоти данные в управляемой куче.
